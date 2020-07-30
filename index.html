@@ -149,10 +149,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
-					<div class="media align-items-center overview__single">
-						<a href="https://www.youtube.com/channel/UCMXDsC0noFbk8F1i4vmUpOQ?view_as=subscriber" target="_blank"></a>
+					<div class="media align-items-center overview__single", id="youtubelink">
 							<span class="overview__single__icon"><i class="ti-crown"></i></span>
-						</a>
 						<div class="media-body">
 							<h3>YOUTUBE MUSIC</h3>
 						</div>
@@ -160,10 +158,8 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
-					<div class="media align-items-center overview__single">
-						<a href="https://www.apple.com/kr/apple-music/" target="_blank">
+					<div class="media align-items-center overview__single", id="applelink">
 						<span class="overview__single__icon"><i class="ti-face-smile"></i></span>
-						</a>
 						<div class="media-body">
 							<h3>APPLE MUSIC</h3>
 						</div>
@@ -171,10 +167,8 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
-					<div class="media align-items-center overview__single">
-						<a href="https://www.amazon.com/MP3-Music-Download/b?node=163856011" target="_blank">
+					<div class="media align-items-center overview__single", id="amazonlink">
 						<span class="overview__single__icon"><i class="ti-user"></i></span>
-						</a>
 						<div class="media-body">
 							<h3>AMAZON MUSIC</h3>
 						</div>
@@ -182,10 +176,8 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
-					<div class="media align-items-center overview__single">
-						<a href="https://smartstore.naver.com/ysb" target="_blank">
+					<div class="media align-items-center overview__single", id="goodslink">
 						<span class="overview__single__icon"><i class="ti-gift"></i></span>
-						</a>
 						<div class="media-body">
 							<h3>GOODS PAGE</h3>
 						</div>
@@ -429,7 +421,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>	
 	<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-
+	<script src="index.js"></script>
 	<script>
 		var testimonialCarousel = $('.testimonialCarousel');
       testimonialCarousel.owlCarousel({
