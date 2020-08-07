@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  .center ul {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+  }
+  .center ul .text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #007bff;
+    color: #fff;
+    line-height: 50px;
+    margin: 0px 10px;
+    border-radius: 50px;
+    font-size: 22px;
+    pointer-events: none;
+  }
+  .center ul:hover .text {
+    opacity: 0;
+    margin: 0px 13px;
+    transition: opacity 0.5s 0.125s ease-out;
+  }
+  .center ul li {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #007bff;
+    line-height: 55px;
+    margin: 0 -16px;
+    cursor: pointer;
+    border-radius: 0;
+    transition: background-color 0.5s ease-out, border-radius 0.5s 0.25s ease-out,
+      margin 0.5s 0.25s ease-out;
+  }
+  .center ul li i {
+    color: #fff;
+    font-size: 22px;
+    margin: 15px 13px;
+    opacity: 0;
+    transition: opacity 1.7s;
+  }
+  .center ul:hover li i {
+    opacity: 1;
+  }
+  .center ul li:nth-child(1) {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+  
+  .center ul li:nth-child(4) {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .center ul:hover li {
+    border-radius: 50px;
+    margin: 0 3px;
+  }
+
+  .section-intro__maintitle{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 0;
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-intro__ptitle{
+    font-family: 'Roboto', sans-serif;
+    background: #262533;
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }

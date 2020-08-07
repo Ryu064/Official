@@ -27,3 +27,4 @@ ticketlink. addEventListener( "click", ticketclick, false);
 function ticketclick(){
     window.open("https://www.facebook.com/mmetalcity/")
 }
+
